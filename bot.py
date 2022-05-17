@@ -20,7 +20,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Salam **{message.from_user.first_name }** \n\n __Mən Dilmanc Bot'am\n Mən göndərdiyin mesajı seçdiyin dilə tərcümə etmək üçün kodlaşdırılmışam\n Başlamaq üçün mənə 1 mesaj göndər__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("··>Epic Projects <··" ,url="t.me/EpicProjects") ],               [InlineKeyboardButton("Kömək 🆘", url="t.me/LuxeSUP") ]   ]  ) )
+	await message.reply_text(text =f"Salam **{message.from_user.first_name }** \n\n __Mən Dilmanc Bot'am\n Mən göndərdiyin mesajı seçdiyin dilə tərcümə etmək üçün kodlaşdırılmışam\n Başlamaq üçün mənə 1 mesaj göndər__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("··>Sahibim <··" ,url="t.me/Thehusnumustafayev") ],               [InlineKeyboardButton("Blog🆘", url="t.me/thehusnumustafayevblog") ]   ]  ) )
                   
 
 
